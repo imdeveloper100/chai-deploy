@@ -14,6 +14,9 @@ app.get("/twitter", (req, res) => {
 app.get("/login", (req, res) => {
     res.send("<h1>Hello Awais</h1>")
 })
+app.get("/signup", (req, res) => {
+    res.send("<h1>Register yourself first</h1>")
+})
 
 app.listen(process.env.PORT, () => {
   console.log(`Example app listening on port ${PORT}`);
